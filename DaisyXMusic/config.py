@@ -24,7 +24,7 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 que = {}
-SESSION_NAME = getenv("SESSION_NAME", "session")
+SESSION_NAME = getenv("SESSION_NAME", "BQCaKjmcE9I1w5-R8QF7p4m6aRMPiIGeVp1UhOS9M7j3qwhIXBstQWByPV7zLLoHO12LTZ3JfNvoHN6YuSlvrUXb5rr4WoIgpNHipRqmB7AdMn20eR5wXPipF9DeW9oPrbALlPzPzEOWsgTQt3v48Ql6nNVfsG0ekVZHDklZDmPLkrTKe9CIfur4S6Qmm3LFs1jaPCctU9KaezT_884t8ib5H5Fi-kMKYMsiDh9SsbtU05sjUG40KsOBB_EUkf9vjJFLpRnoHOY07yw569saooK9BTXMXJ63foPeSAt28mFkMRY-IdoMQg6FLVSjzGBLct0NeOtwJnz6IZ7wTIKeH8xqbD-1GQA")
 BOT_TOKEN = getenv("5076495231:AAGyDrYybbtdQNe-Oexzt42slznxUuxrzgM")
 BOT_NAME = getenv("music-p bot")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "DaisyXupdates")
